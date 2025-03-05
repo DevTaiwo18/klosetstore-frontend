@@ -1,0 +1,6 @@
+// Day 1 
+Initialised Project
+Installed Tailwind
+
+// Day 2
+added navbar component
