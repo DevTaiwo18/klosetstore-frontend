@@ -4,3 +4,7 @@ Installed Tailwind
 
 // Day 2
 added navbar component
+
+// Dat 3
+Cleared up all folders
+Added the waitlist page
