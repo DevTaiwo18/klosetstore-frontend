@@ -1,14 +1,12 @@
- 
-import './App.css'
-import WaitlistPage from './pages/WaitlistPage'
+ import { BrowserRouter } from 'react-router-dom';
+import WaitlistPage from './pages/WaitlistPage';
 
 function App() {
- 
   return (
-    <>
-       <WaitlistPage/>
-    </>
-  )
+    <BrowserRouter>
+      <WaitlistPage />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
