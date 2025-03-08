@@ -1,6 +1,6 @@
 // import React from 'react';
 import Navbar from '../components/Navbar';
-
+import Footer from '../components/Footer';
 const WaitlistPage = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
@@ -51,9 +51,7 @@ const WaitlistPage = () => {
           <p className="mt-4 text-lg">Fashion, Marketplace, Unique, Trendy, Stylish, Secure Payments, Personalized Recommendations, Curated Collections, Seamless Shopping</p>
         </div>
       </div>
-      <footer className="bg-gray-800 text-white p-4 text-center">
-        <p>&copy; 2025 KlosetStore. All rights reserved.</p>
-      </footer>
+      <Footer/>
     </div>
   );
 };
