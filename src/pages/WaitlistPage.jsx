@@ -1,34 +1,59 @@
- import Navbar from '../components/Navbar';
+// import React from 'react';
+import Navbar from '../components/Navbar';
 
 const WaitlistPage = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <Navbar />
-      <div className="flex-grow flex flex-col justify-center items-center">
-        <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
-          <h1 className="text-2xl font-bold mb-4">Join the KlosetStore Waitlist</h1>
-          <p className="mb-6">Be the first to know when we launch and get exclusive early access to our platform. Join the waitlist now!</p>
+      <div className="flex-grow flex flex-col justify-center items-center bg-gray-100 py-10">
+        <div className="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full">
+          <h1 className="text-4xl font-bold mb-4 text-center text-coral-500">Join the KlosetStore Waitlist</h1>
+          <p className="mb-6 text-center text-gray-700">Be the first to know when we launch and get exclusive early access to our platform. Discover unique fashion, one find at a time!</p>
           <form className="space-y-4">
             <input
               type="text"
-              placeholder="Your Name"
-              className="w-full p-2 border border-gray-300 rounded"
+              placeholder="Enter Your Name"
+              className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-coral-500"
             />
             <input
               type="email"
-              placeholder="Your Email"
-              className="w-full p-2 border border-gray-300 rounded"
+              placeholder="Enter Your Email"
+              className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-coral-500"
             />
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
+              className="w-full bg-coral-500 text-white p-3 rounded hover:bg-coral-600 transition duration-300"
             >
-              Join the Waitlist
+              Get Early Access
             </button>
           </form>
-          <p className="mt-4 text-gray-600">Already have an account? <a href="/login" className="text-blue-500">Log in</a></p>
+          <p className="mt-4 text-gray-600 text-center">Already have an account? <a href="/login" className="text-coral-500 hover:underline">Log in</a></p>
+        </div>
+        <div className="text-center text-gray-800 mt-10 max-w-2xl">
+          <h2 className="text-3xl font-bold">Why Join KlosetStore?</h2>
+          <ul className="mt-4 space-y-2 text-lg">
+            <li>✔️ Exclusive early access to the latest fashion trends</li>
+            <li>✔️ Unique and curated collections from top sellers</li>
+            <li>✔️ Seamless shopping experience with secure payments</li>
+            <li>✔️ Personalized recommendations just for you</li>
+          </ul>
+        </div>
+        <div className="text-center text-gray-800 mt-10 max-w-2xl">
+          <h2 className="text-3xl font-bold">About KlosetStore</h2>
+          <p className="mt-4 text-lg">KlosetStore is an online fashion marketplace that empowers sellers to create stores, list products, and sell directly to buyers. Join us to discover unique fashion and manage your store effortlessly.</p>
+        </div>
+        <div className="text-center text-gray-800 mt-10 max-w-2xl">
+          <h2 className="text-3xl font-bold">Our Tagline</h2>
+          <p className="mt-4 text-lg">Find Your Style, Share Your Passion</p>
+        </div>
+        <div className="text-center text-gray-800 mt-10 max-w-2xl">
+          <h2 className="text-3xl font-bold">Catchy SEO Words</h2>
+          <p className="mt-4 text-lg">Fashion, Marketplace, Unique, Trendy, Stylish, Secure Payments, Personalized Recommendations, Curated Collections, Seamless Shopping</p>
         </div>
       </div>
+      <footer className="bg-gray-800 text-white p-4 text-center">
+        <p>&copy; 2025 KlosetStore. All rights reserved.</p>
+      </footer>
     </div>
   );
 };
