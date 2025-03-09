@@ -2,6 +2,8 @@ import { useState } from 'react';
 import emailjs from 'emailjs-com';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const WaitlistPage = () => {
   const [formData, setFormData] = useState({ name: '', email: '' });
@@ -13,6 +15,11 @@ const WaitlistPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!formData.name || !formData.email) {
+      toast.error('Please fill in all fields.');
+      return;
+    }
 
     const templateParams = {
       name: formData.name,
@@ -28,10 +35,10 @@ const WaitlistPage = () => {
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        alert('Thank you for joining the waitlist!');
+        toast.success('Thank you for joining the waitlist!');
       }, (error) => {
         console.log('FAILED...', error);
-        alert('There was an error, please try again.');
+        toast.error('There was an error, please try again.');
       });
 
     setFormData({ name: '', email: '' });
@@ -84,6 +91,7 @@ const WaitlistPage = () => {
         </div>
       </div>
       <Footer />
+      <ToastContainer />
     </div>
   );
 };
