@@ -14,4 +14,8 @@ Added the waitlist page
 Handled the error with TailwindCSS and Shadcn installation. 
 Added the brand Design Properties.
 Created a design.css file for our saved design variables.
-Installed @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+Installed @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons.
+Add EmailJS integration with environment variables
+Added .env file to store EmailJS service ID, template ID, and user ID.
+Updated WaitlistPage.jsx to use environment variables for EmailJS credentials.
+Added .env to .gitignore to ensure sensitive information is not committed to version control.
