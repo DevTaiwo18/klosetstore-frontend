@@ -19,3 +19,6 @@ Add EmailJS integration with environment variables
 Added .env file to store EmailJS service ID, template ID, and user ID.
 Updated WaitlistPage.jsx to use environment variables for EmailJS credentials.
 Added .env to .gitignore to ensure sensitive information is not committed to version control.
+Add .env.example file and update .gitignore
+Added .env.example file to provide a template for environment variables.
+Updated .gitignore to ensure the .env file is not committed to version control.
