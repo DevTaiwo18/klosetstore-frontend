@@ -1,0 +1,31 @@
+/* Brand Colors */
+:root {
+    --main-color: #F27C28;
+    --shade1-color: #F59D5E;
+    --shade2-color: #FCDEC9;
+  
+    /* State Colors */
+    --info-color: #2F80ED;
+    --success-color: #27AE60;
+    --warning-color: #E2B93B;
+    --error-color: #EB5757;
+  
+    /* Black/White Colors */
+    --black1-color: #000000;
+    --black2-color: #14151A;
+    --black3-color: #262627;
+    --white1-color: #FFFFFF;
+    --white2-color: #F6F6F6;
+  
+    /* Grey Colors */
+    --gray1-color: #333333;
+    --gray2-color: #4F4F4F;
+    --gray3-color: #828282;
+    --gray4-color: #BDBDBD;
+    --gray5-color: #E0E0E0;
+  
+    /* Typography */
+    --font-family: 'Poppins', sans-serif;
+    --heading-line-height: 1.1;
+    --body-line-height: 1.4;
+  }

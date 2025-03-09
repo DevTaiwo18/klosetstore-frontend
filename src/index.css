@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import './design.css';
 @plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
@@ -120,5 +120,14 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-family);
+    line-height: var(--body-line-height);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    line-height: var(--heading-line-height);
   }
 }
+
+/* Tailwind CSS imports */
+ 
+@tailwind utilities;
