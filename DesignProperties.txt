@@ -1,0 +1,46 @@
+Design Properties
+This consists of all our brand styling all through. 
+
+BRAND COLORS:
+Main: #F27C28
+Shades:  #F59D5E #FCDEC9
+
+STATE COLORS:
+ Info
+ #2F80ED
+ Success
+ #27AE60
+ Warning
+ #E2B93B
+ Error
+ #EB5757
+
+ BLACK/WHITE COLORS:
+ Black 1
+ #000000
+ Black 2
+ #14151A
+ Black 3
+ #262627
+ White
+ #FFFFFF
+ White
+ #F6F6F6
+
+ GREY COLORS: 
+  Gray 1
+ #333333
+ Gray 2
+ #4F4F4F
+ Gray 3
+ #828282
+ Gray 4
+ #BDBDBD
+ Gray 5
+ #E0E0E0
+
+
+ TYPOGRAPHY :
+ Fonts : POPPINS 
+  Line height and paragraph spacing for heading is    1.1 x font size
+  Line height and paragraph spacing for body text is : 1.4 x font siz

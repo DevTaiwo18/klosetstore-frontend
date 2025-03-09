@@ -5,6 +5,10 @@ Installed Tailwind
 // Day 2
 added navbar component
 
-// Dat 3
+// Day 3
 Cleared up all folders
 Added the waitlist page
+
+
+// Day 4
+Handled the error with TailwindCSS and Shadcn installation. 
