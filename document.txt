@@ -13,4 +13,5 @@ Added the waitlist page
 // Day 4
 Handled the error with TailwindCSS and Shadcn installation. 
 Added the brand Design Properties.
-Created a design.css file for our saved design variables
+Created a design.css file for our saved design variables.
+Installed @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
