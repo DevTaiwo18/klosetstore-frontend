@@ -24,7 +24,7 @@ const WaitlistPage = () => {
     const templateParams = {
       name: formData.name,
       email: formData.email,
-      to_email: 'sheriffdeenmakinde@gmail.com'
+      to_email: formData.email // Send success email to the user who submitted their email
     };
 
     emailjs.send(
@@ -35,7 +35,7 @@ const WaitlistPage = () => {
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        toast.success('Thank you for joining the waitlist!');
+        toast.success('Thank you for joining the waitlist! A confirmation email has been sent to your email address.');
       }, (error) => {
         console.log('FAILED...', error);
         toast.error('There was an error, please try again.');
