@@ -1,10 +1,13 @@
- import { BrowserRouter } from 'react-router-dom';
+ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import WaitlistPage from './pages/WaitlistPage';
 
 function App() {
   return (
     <BrowserRouter>
-      <WaitlistPage />
+      <Routes>
+        <Route path="/" element={<WaitlistPage />} />
+        {/* Add more routes here as needed */}
+      </Routes>
     </BrowserRouter>
   );
 }
