@@ -23,3 +23,7 @@ Add .env.example file and update .gitignore
 Added .env.example file to provide a template for environment variables.
 Updated .gitignore to ensure the .env file is not committed to version control.
 Installed toastify for success and error notification
+
+
+// Next:
+Partition the user and vendors routes
