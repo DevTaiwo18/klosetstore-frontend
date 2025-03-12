@@ -6,7 +6,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<WaitlistPage />} />
-        {/* Add more routes here as needed */}
       </Routes>
     </BrowserRouter>
   );

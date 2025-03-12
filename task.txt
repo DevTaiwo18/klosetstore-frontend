@@ -1,0 +1,33 @@
+# KlosetStore Project Tasks
+
+## 01. Project Setup
+- Initialised Project  
+- Installed Tailwind CSS  
+
+## 02. Core Components  
+- Created navbar component  
+- Handled TailwindCSS and Shadcn UI integration issues  
+- Added brand design properties  
+- Created design.css for style variables  
+
+## 03. Waitlist Page Development  
+- Cleared folder structure  
+- Created waitlist page layout  
+- Designed modern header component  
+- Implemented form with buyer/vendor options  
+- Integrated responsive benefits section  
+- Added custom footer component  
+
+## 04. Functionality & Integration  
+- Installed FontAwesome icons (@fortawesome/react-fontawesome, @fortawesome/free-solid-svg-icons)  
+- Implemented EmailJS for form submissions  
+- Added environment variables for EmailJS configuration  
+- Set up proper .env file management and .gitignore rules  
+- Created .env.example template for documentation  
+- Added toast notifications for form feedback  
+
+## 05. Documentation & HTML Setup  
+- Updated HTML template with proper SEO metadata  
+- Added Google Fonts integration for Poppins font family  
+- Improved meta tags for better SEO performance  
+- Updated favicon and page title
